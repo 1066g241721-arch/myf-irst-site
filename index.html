@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dioのサイト</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        let jikian = new Date();
+        let hour = jikan.gethours();
+        let minute = jikan.getminute();
+        let secound = jikan.getsecound();
+        let year = jikan.getfullyear(); - 2018
+        let monthe = jikan.getmonthe(); + 1
+        let Date = jikan.getdate();
+        let weekday = jikan.getday();
+        window.alert("今日は" + year + "年" + monthe + "月" + Date + "日です。");
+        if(weekday == 5){
+           window.alert("今日は木曜日です。 ");
+        } else{
+            window.alert("今日は木曜日ではありません。");
+        }
+        window.alert("ようこそ！現在は" + hour + "時" + minute + "分" + secound + "秒です。S");
+    </script>
+</head>
+<body>
+    <div = id="header">
+           <h1>dioのサイト</h1>
+    </div>
+    <div id="main">
+        <h2>見出し１</h2>
+        <p>ここに文章が入ります。</p>
+        <h2>見出し２
+        </h2>
+        <p>ここに文章が入ります。</p>
+    </div>
+    <div id="footer">
+        <p>copyright (c) 2026 dio.All right reserved.</p>
+    </div>
+</body>
+</html>
